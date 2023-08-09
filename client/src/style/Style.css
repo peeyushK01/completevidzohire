@@ -1,0 +1,2097 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400;1,500&family=Open+Sans:wght@400;500;600&family=Oswald&family=Poppins&family=Roboto+Slab&family=Rubik:wght@800&family=Urbanist:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400;1,500&family=Open+Sans:wght@400;500;600&family=Oswald&family=Poppins&family=Roboto+Slab&family=Rubik:wght@800&family=Urbanist:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login_bg {
+  background-color: #f9f9f9;
+  background-image: url("../assets/background.jpg");
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 
+.login_bgf {
+  background-color: #a0d1d261;
+  padding: 24px 20px 30px 40px;
+  height: 560px;
+} */
+
+.login_imaages img {
+  width: 100%;
+}
+
+.input_singin {
+  padding: 11px 24px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 7px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading_login h3 {
+  font-family: "Urbanist", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.form_reg {
+  font-family: "Urbanist", sans-serif;
+  color: #1795a8;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.heading_login p {
+  font-family: "DM Sans";
+  font-weight: 400;
+}
+
+.lable_heading {
+  font-family: "DM Sans";
+  font-size: 17px;
+}
+
+.button_type_job {
+  background-color: #00a7ac;
+  padding: 7px 30px;
+  text-align: center;
+  font-family: "Cerebri Bold";
+  font-size: 20px;
+  border: none;
+  width: 60%;
+}
+
+.button_all {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.without_input {
+  width: 80%;
+  background-color: #ffffff;
+  padding: 7px 15px;
+}
+
+/* signup  */
+.form_bg {
+  background-color: #f9f9f9;
+  background-image: url("../assets/background.jpg");
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup_imaages img {
+  width: 100%;
+  height: 559px;
+}
+
+.signup_input {
+  padding: 11px 34px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 7px 0 rgba(0, 0, 0, 0.19);
+}
+
+.last_heading_parts {
+  font-family: "Urbanist", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.logout_btn {
+  padding: 6px 16px;
+  background-color: #000000;
+  color: white;
+  font-family: "Urbanist", sans-serif;
+}
+
+.logout_btn:hover {
+  background-color: #fccf47;
+}
+
+.banner_hr {
+  background-image: url("../assets/aplicant_bg.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  border-radius: 13px;
+}
+
+.profie_header h4 {
+  color: white;
+}
+
+.background_images1 {
+  background-image: url("../assets/aplicant_bg.png");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  border-radius: 13px;
+}
+
+.btn_add {
+  float: right;
+}
+
+::placeholder {
+  font-size: 16px;
+  font-family: "DM Sans";
+  padding: 6px 0px;
+}
+
+.google_signin {
+  text-align: center;
+}
+
+.text_sigin h5 {
+  font-family: "Cerebri Bold";
+  color: #2192ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text_banner {}
+
+/* end */
+
+/* index css */
+.text_jobportals_heading1 {
+  background-color: #1795a8;
+}
+
+.side_img img {
+  width: 100%;
+}
+
+.complete_lang {
+  padding-top: 7.2rem;
+}
+
+.para_parts p {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 300;
+  color: #000;
+  font-size: 18px;
+}
+
+.more_view {
+  padding: 8px 32px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  margin-right: 10px;
+  background: white;
+  color: black;
+  margin-top: 15px;
+}
+
+.more_view:hover {
+  background-color: #fccf47;
+  font-size: 17px;
+  color: black;
+  transition: 0.5s ease-in-out all
+}
+
+.Job_portals_bg {
+  background-color: #1795a8;
+}
+
+.Nav_list {
+  color: #f8f8f8;
+  font-size: 20px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+}
+
+.Nav_list:hover {
+  color: #fccf47;
+}
+
+.logo_video {
+  width: 100%;
+}
+
+.home_navbar {
+  width: 23%;
+}
+
+.job_heading h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.job_secondary {
+  color: #1795a8;
+}
+
+.para_jobs p {
+  color: #595959;
+  font-family: "Cerebri Bold";
+  font-size: 21px;
+}
+
+.profie_header h4 {
+  color: white;
+  font-size: 29px;
+  padding-top: 6rem;
+  font-family: "Cerebri Bold";
+  padding-left: 5rem;
+}
+
+.profie_header p {
+  color: white;
+  font-size: 19px;
+  font-family: "Cerebri Bold";
+}
+
+/* css */
+
+/* cards caterioes */
+.cards_img {
+  background-color: #f8f8f89c;
+  height: auto;
+  border: 1px solid #1795a8;
+  border-radius: 14px;
+}
+
+.cards_img:hover {
+  background-color: #a3e5ef63;
+  transition: ease-in-out 0.5s all;
+}
+
+.cards_img img {
+  padding: 19px 29px 24px 28px;
+  width: 45%;
+}
+
+.position_names h4 {
+  color: #000;
+  padding-left: 20px;
+  font-family: "Cerebri Bold";
+  font-weight: 600;
+}
+
+.jobs_avaiables p {
+  padding-left: 20px;
+  color: #1795a8;
+  font-family: "Cerebri Bold";
+}
+
+/* end */
+
+.secondary_add {
+  color: #00a7ac;
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.logo_resp img {
+  width: 12%;
+}
+
+/* start footers */
+.footer_end {
+  background-color: #1a1a1a;
+}
+
+.foo_sec ul li {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  list-style: none;
+  color: #f8f8f8;
+  transition: 0.35s;
+  line-height: 29px;
+  text-align: center;
+}
+
+.foo_sec ul li:hover {
+  color: #00a7ac;
+}
+
+.foo_sec h1 {
+  font-family: "Cerebri Bold";
+  color: #f8f8f8;
+  font-size: 18px;
+}
+
+.one_part_foo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_foo p {
+  color: #f8f8f8;
+  padding-left: 16px;
+  padding-top: 13px;
+  font-size: 19px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.Contact_numer {
+  color: #1795a8;
+  padding-left: 10px;
+  font-family: "Cerebri Bold";
+}
+
+.menu_foo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 13px;
+}
+
+.menu_foo p {
+  color: #f8f8f8;
+  font-family: "Urbanist", sans-serif;
+}
+
+.menu_foo p:hover {
+  color: #00a7ac;
+}
+
+.foo_sec h3 {
+  color: #f8f8f8;
+  font-family: "Cerebri Bold";
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #fff;
+}
+
+/* end */
+
+/* candidate proflie */
+/* .section_bg{
+    background-color: #f8f8f8;
+   
+} */
+
+.backgroud img {
+  width: 100%;
+}
+
+.form_title {
+  font-family: "Cerebri Bold";
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+.candidate_head h3 {
+  font-family: "Cerebri Bold";
+  color: #1a1a1a;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.job_profile {
+  color: #1795a8;
+}
+
+.candidate_head {
+  text-align: center;
+}
+
+.candidate_inputs {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 7px 0 rgba(0, 0, 0, 0.19);
+  padding: 11px 20px 12px;
+  position: relative;
+
+}
+
+.icon_position {
+  position: absolute;
+  left: 20%;
+  top: 81%;
+}
+
+.icon_position1 {
+  position: absolute;
+  left: 20%;
+  top: 94%;
+}
+
+
+.arrow {
+  font-size: 21px;
+}
+
+.zindex_form {
+  z-index: 1;
+}
+
+/* end */
+
+/* hrfetch data  */
+.Table_heading th {
+  background: #00a7ac;
+  color: white!important;
+  font-size: 18px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.table_numer td {
+  border: 1px solid #97979782;
+  font-family: "Cerebri Bold";
+  border-collapse: collapse;
+  width: 9%;
+}
+
+.icons_hr {
+  font-size: 17px;
+  margin-left: 12px;
+  color: #1795a8;
+}
+
+.text_banner h3 {
+  font-family: "Urbanist", sans-serif;
+  color: #1a1a1a;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.dashhr {
+  font-family: "Urbanist", sans-serif;
+  color: #1795a8;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.nique_qaulity {
+  background-image: linear-gradient(#aae7ef, #fcfcfd);
+}
+
+.Process_step {
+  background-image: linear-gradient(#aae7ef, #fcfcfd);
+}
+
+.HrProfile {
+  background-image: linear-gradient(#aae7ef, #fcfcfd);
+}
+
+.upcandidate {
+  background-image: linear-gradient(#c1edf3, #fcfcfd);
+}
+
+.candidate_details {
+  background-image: linear-gradient(#aae7ef, #fcfcfd);
+}
+
+.Jd_company {
+  background-image: linear-gradient(#aae7ef, #fcfcfd);
+}
+
+.background_images {
+  background-image: linear-gradient(#aae7ef, #fcfcfd);
+  height: auto;
+}
+
+/* .table_numer {
+  background-image: linear-gradient(#aae7ef, #fcfcfd);
+} */
+
+.process_heading {
+  font-family: "Cerebri Bold";
+  color: #000000;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.step_quiz {
+  font-family: "Cerebri Bold";
+  color: #1795a8;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.images_steps img {
+  width: 100%;
+}
+
+.cirle_blank {
+  color: #1795a8;
+  font-size: 23px;
+}
+
+.steps_all p {
+  margin-left: 19px;
+  padding-top: 9px;
+  font-family: "Urbanist", sans-serif;
+  color: #000000;
+  font-weight: 600;
+}
+
+.Delete_btn {
+  background: white;
+  color: black;
+  font-size: 14px;
+}
+
+/* end */
+
+/* jobs card */
+.img_jobs_icons {
+  width: 27%;
+  padding: 19px 15px;
+}
+
+.secondary_text {
+  font-size: 42px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #1795a8;
+}
+
+.heading_jobs_type p {
+  font-size: 42px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  /* line-height: 68px; */
+  color: #000000;
+}
+
+.para_heading_types p {
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  /* line-height: 68px; */
+  color: #000000;
+}
+
+.card_jobs_types {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card_jobs_types .card {
+  border: none !important;
+}
+
+.text_lines_para p {
+  font-size: 15px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #241e1e;
+  text-align: justify;
+}
+
+.text_lines_para h4 {
+  font-size: 17px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.card1_why {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 21px 25px 16px 11px;
+  border-radius: 34px;
+}
+
+.card1_why img {
+  width: 17%;
+  padding: 6px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.card1_why h4 {
+  font-size: 17px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.card1_why p {
+  font-size: 15px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #241e1e;
+  text-align: justify;
+}
+
+.more_view1 {
+  padding: 5px 16px;
+  border-radius: 20px;
+  background: black;
+  border: none;
+  /* box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19); */
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  margin-right: 10px px;
+}
+
+.why_choics h3 {
+  font-size: 32px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.why_para p {
+    font-family: "Urbanist", sans-serif;
+    color: #000000;
+    font-weight: 600;
+}
+
+.why_second {
+  color: #1795a8;
+}
+
+.why_choics_us {
+  background: #f9f9f9;
+}
+
+.heading_quality h5 {
+  font-size: 32px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.quality_name {
+  color: #1795a8;
+  font-size: 32px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+}
+
+.para_quality p {
+  font-size: 18px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #000000;;
+}
+
+.image_flex_text img {
+  width: 14%;
+}
+
+.content_text h4 {
+  margin-left: 19px;
+}
+
+.content_text p {
+  margin-left: 19px;
+}
+
+.content_text h4 {
+  font-size: 21px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.last_color {
+  color: #1795a8;
+}
+
+.content_text p {
+  font-size: 15px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #241e1e;
+  text-align: justify;
+}
+
+.images_jobs_hr img {
+  width: 100%;
+}
+
+.footer_heading h3 {
+  color: white;
+  font-size: 58px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+}
+
+.job_here {
+  color: #1795a8;
+  font-size: 58px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+}
+
+.form_basic_input {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+  padding: 11px 20px;
+}
+
+.company_details {
+  color: #1795a8;
+  font-size: 32px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+}
+
+.candidate_head h3 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+}
+
+.input_lables {
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #000000;
+}
+
+.heading_question h3 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.question {
+  color: #1795a8;
+}
+
+.hrapp_bar {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 7px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px;
+}
+
+.nav_lin_items {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+
+}
+
+.nav_lin_items:hover {
+  color: #1795a8;
+}
+
+.link_breadcrumb {
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #1795a8;
+}
+
+.link_breadcrumb a {
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+
+.heading_properties {
+  text-decoration: none;
+}
+
+/* end */
+
+/* getall jobs */
+.company_heading p {
+  font-size: 20px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #1795a8;
+  text-transform: capitalize;
+}
+
+.para_pa {
+  font-size: 18px;
+  color: #000000;
+  text-transform: capitalize;
+  font-family: "Cerebri Bold";
+  margin-left: 6px;
+}
+
+.assign {
+  font-size: 22px;
+  color: lightslategrey;
+  padding-top: 3px;
+}
+
+.work_location p {
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #000000;
+}
+
+.work_types p {
+  background-color: #eaeaea5e;
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  border-radius: 7px;
+  border: 1px solid #00a7ac;
+  width: 25%;
+  padding: 1px 0px;
+  margin-right: 12px;
+  font-size: 15px;
+}
+
+.applied_job {
+  background: #1795a8;
+  padding: 6px 30px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 7px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header_alljobs {
+  background-image: url("../assets/aplicant_bg.png");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 13px;
+}
+
+.header_one_all {
+  font-size: 54px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: white;
+}
+
+.heading_parts h3 {
+  font-size: 27px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.heading_parts {
+  padding-top: 7rem;
+  padding-left: 32px;
+}
+
+.search_input input {
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 15px 80px 17px 45px;
+  border: none;
+  margin-left: 36px;
+  margin-top: 18px;
+}
+
+.cards_data {
+  /* border: 1px solid #00a7ac; */
+  height: auto;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.cards_data1 {
+  height: auto;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.all_jobs_caterio h3 {
+  font-size: 27px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  color: #000000;
+}
+
+.Apply_btn {
+  border: none;
+  padding: 6px 22px;
+  background-color: #1795a8;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.Apply_btn1 {
+  margin-left: 30px;
+  padding: 6px 22px;
+  background-color: #1795a8;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.tages_popular p {
+  margin-left: 12px;
+  border: 1px solid #1795a8;
+  color: #00a7ac;
+  padding: 5px 20px;
+  border-radius: 12px;
+  font-family: "Cerebri Bold";
+}
+
+.pagination {
+  margin: 0px 12px;
+  background-color: #0000001a;
+  border: none;
+  color: black;
+  padding: 6px 13px;
+  border-radius: 25px;
+}
+
+.current_page {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.pagination_btn {
+  float: right;
+  margin: 20px 68px;
+}
+
+/* end */
+
+.page_arrow {
+  font-size: 26px;
+  color: #00a7ac;
+}
+
+.jd_compnay h3 {
+  font-size: 34px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  color: #00a7ac;
+}
+
+.compnay_name p {
+  font-size: 25px;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.logo_mark {
+  color: #00a7ac;
+  font-size: 18px;
+}
+
+.location_part {
+  font-size: 18px;
+  font-family: "Cerebri Bold";
+  color: #4c4949;
+}
+
+.card_job_details {
+  background-color: white;
+  padding: 10px 20px 30px 40px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+}
+
+.About_jobs h3 {
+  font-size: 37px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  color: #00a7ac;
+}
+
+.About_jobs p {
+  font-size: 18px;
+  font-family: "Cerebri Bold";
+  color: #000000;
+}
+
+.About_jobs ul li {
+  font-size: 16px;
+  font-family: "Cerebri Bold";
+  color: #4c4949;
+  line-height: 35px;
+}
+
+.qualification h3 {
+  font-size: 37px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  color: #00a7ac;
+}
+
+.qualification li {
+  font-size: 18px;
+  font-family: "Cerebri Bold";
+  color: #4c4949;
+  line-height: 35px;
+}
+
+.images img {
+  width: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  height: 180px;
+}
+
+.applicant_types {
+  margin-left: 12px;
+}
+
+.images {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.19);
+  height: auto;
+  border-top: 2px solid #00a7ac;
+}
+
+/* .fname {
+  margin-left: 38px;
+  padding-top: 41px;
+} */
+
+.horizontal {
+  border: 1px solid black;
+}
+
+.edit_btn1 {
+  float: right;
+  padding: 8px 32px;
+  border-radius: 20px;
+  background: #1795a8;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  margin-right: 10px;
+}
+
+.fname p {
+  font-size: 18px;
+  font-family: "Cerebri Bold";
+  color: #000000;
+  line-height: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.second_color {
+  color: #1795a8;
+}
+
+input:focus-visible {
+  outline: 3px solid #00a7ac;
+  border-radius: 3px;
+}
+
+
+.heading_experience h4 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.heading_experience p {
+  color: #000000;
+  font-family: "Cerebri Bold";
+  font-size: 14px;
+}
+
+.About_me h4 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 29px;
+  font-weight: 600;
+}
+.About_me p{
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.gif img{
+  width: 60%;
+  margin: auto;
+}
+
+.about_me {
+  font-family: "Urbanist", sans-serif;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.candi img {
+  width: 80%;
+}
+
+.About_me p {
+  color: #000000;
+  font-family: "Cerebri Bold";
+  font-size: 16px;
+  border: 1px solid #a7a7a7;
+  padding: 4px 20px;
+  height: auto;
+}
+
+.location1 h4 {
+  color: #1795a8;
+  font-size: 20px;
+  font-family: "Cerebri Bold";
+}
+
+.location h4 {
+  color: #1795a8;
+  font-size: 20px;
+  font-family: "Cerebri Bold";
+}
+
+
+.location p {
+  font-size: 14px;
+  font-family: "Cerebri Bold";
+  color: grey;
+  padding-left: 13px;
+}
+
+.skills {
+  font-size: 28px;
+  font-family: "Cerebri Bold";
+  color: #000000;
+  line-height: 35px;
+  text-transform: capitalize;
+  padding-left: 13px;
+}
+
+.skills1 {
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+  color: #241e1e;
+}
+
+
+.btn_skills p {
+  color: #000000;
+  font-family: "Cerebri Bold";
+  font-size: 20px;
+}
+
+.logout_btn {
+  background-color: #00a7ac;
+  border: none;
+  font-weight: 700;
+  padding: 10px 29px;
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.View_resume {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.View_resume a {
+  background-color: #00a7ac;
+  text-decoration: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Cerebri Bold";
+}
+
+.black_hr {
+  border: 1px solid #000000 !important;
+
+}
+
+.View_resume h4 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Cerebri Bold";
+}
+
+.background_images h4 {
+  color: #000000;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 5rem;
+  font-family: "Cerebri Bold";
+}
+
+.background_images p {
+  color: #534646;
+  font-size: 22px;
+  text-align: center;
+  /* padding-top: 5rem; */
+  font-family: "Cerebri Bold";
+}
+
+.banner_hr p {
+  color: white;
+  font-size: 29px;
+  padding-top: 6rem;
+  font-family: "Cerebri Bold";
+}
+
+.cirile_icon {
+  margin-top: 4px;
+  margin-right: 7px;
+}
+
+.about_us_banner {
+  background-image: url(../assets/aplicant_bg.png);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  margin-top: 10px;
+}
+
+.para_span {
+  font-family: "Cerebri Bold";
+  font-size: 20px;
+}
+
+.about_title h3 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.second_color {
+  color: #00a7ac;
+}
+
+.brief_about p {
+  text-align: left;
+  color: gray;
+  font-family: "Cerebri Bold";
+  text-align: justify;
+  margin-top: 3rem;
+}
+
+.jdcompnay_images img {
+  width: 100%;
+}
+
+.forget_password a {
+  text-decoration: none;
+  font-size: 18px;
+  color: gray;
+  font-family: "Cerebri Bold";
+}
+
+.cards_images {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 6px 24px 29px 24px;
+  margin-top: 7.2rem;
+}
+
+.forget_email {
+  /* padding-top: 7.5rem; */
+  background-image: linear-gradient(180deg,
+      #c9f8ff 20%,
+      rgba(155, 242, 255, 0) 100%);
+}
+
+.forget_images img {
+  width: 100%;
+}
+
+.forget_heading p {
+  font-family: "Cerebri Bold";
+  text-align: center;
+}
+
+.forget_btn {
+  background-color: #00a7ac;
+  padding: 5px 40px;
+}
+
+.forget_btn:hover {
+  background-color: #00a7ac;
+}
+
+.button_forget {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Cerebri Bold";
+}
+
+.tooltip {
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 3px 8px;
+  font-family: "Cerebri Bold";
+  margin-bottom: 12px;
+}
+
+.tooltip-inner {
+  color: #fff;
+  background-color: none;
+}
+
+.tooltip-arrow {}
+
+.privacy_policy1 p {
+  font-size: 14px;
+  font-family: "Cerebri Bold";
+}
+
+.privacy_policy {
+  background-image: url("../assets/privacy_policy.png");
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moblie_privacy img {
+  width: 70%;
+}
+
+.secondary_color1 {
+  color: #00a7ac;
+  font-size: var(--font-size);
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  font-size: 61px;
+}
+
+.button_privacy {
+  padding: 12px 24px;
+  background: #1795a8;
+  border-radius: 8px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.privacy_second {
+  color: #00a7ac;
+  font-size: 26px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.Privacy_bottom_head h3 {
+  color: #000000;
+  font-size: 26px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.Privacy_bottom_head {
+  text-align: center;
+  margin-top: 19px;
+}
+
+.iamges_policy img {
+  width: 10%;
+}
+
+.heading_privacy h3 {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Cerebri Bold";
+}
+
+.heading_privacy h3 :hover {
+  color: #00a7ac;
+}
+
+.privacy_para p {
+  color: rgb(65, 62, 62);
+  font-family: "Cerebri Bold";
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.privacy_para p:hover {
+  color: #000000;
+}
+
+.heading_big_job_portals h3 {
+  font-size: var(--font-size);
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.toast-error {
+  background-color: #00a7ac;
+  color: red;
+  font-weight: bold;
+}
+
+.text-editor-container {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ql-editor {
+  min-height: 300px;
+  font-size: 16px;
+}
+
+.gender {
+  font-family: "Cerebri Bold";
+  color: #1a1a1a;
+  font-size: 18px;
+}
+
+.Basic_information_title h1 {
+  font-family: "Cerebri Bold";
+  color: #1a1a1a;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00a7ac;
+}
+
+
+.Basic_information_title h2 {
+  color: #000000;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+.Basic_information_title {
+  background-color: #ffff;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  padding: 12px 20px 30px 30px;
+}
+
+.answer_question h3 {
+  font-family: "Cerebri Bold";
+  color: #1a1a1a;
+  font-size: 38px;
+}
+
+.recording_btn {
+  padding: 7px 30px;
+  margin-right: 12px;
+  background-color: #00a7ac;
+  font-size: 16px;
+  color: white;
+  border: none;
+  font-family: "Cerebri Bold";
+  border-radius: 12px;
+}
+
+.question_banner {
+  background-image: url('../assets/aplicant_bg.png');
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+}
+
+.question_parts h4 {
+  color: #000000;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.text_bannwr h3 {
+  color: white;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.assignment_color {
+  color: antiquewhite;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.para_exam {
+  color: white;
+  font-family: "Cerebri Bold";
+  font-weight: 500;
+}
+
+.complete_para {
+  padding-top: 7rem;
+}
+
+.question_parts p {
+  color: #000000;
+  font-family: "Urbanist", sans-serif;
+  ;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.app_logo_part img {
+  width: 100%;
+}
+
+.heading_pricing h3 {
+  font-family: "Cerebri Bold";
+  color: #1a1a1a;
+  font-size: 48px;
+}
+
+.princing_para p {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+.pricing-color {
+  font-family: "Cerebri Bold";
+  color: #00a7ac;
+  font-size: 48px;
+}
+
+.princing_heading h3 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 49px;
+  color: #000000;
+
+}
+
+/* .monthly{
+  background: #00a7ac;
+  border: none;
+  padding: 12px 30px;
+  color: ;
+} */
+
+.secondary_text h3 {
+  font-size: 42px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #1795a8;
+}
+
+.pricing_description {
+  font-size: 15px;
+  font-family: "Cerebri Bold";
+
+}
+
+.pricing_head {
+  font-family: "Urbanist", sans-serif;
+  font-size: 19px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.secondary_mo {
+  color: #1795a8;
+}
+
+.bg-pricing {
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  padding: 6px 12px;
+}
+
+.bg-pricing:hover {
+  background-color: #00a7ac;
+}
+
+.princing_banner {
+  background-image: url("../assets/pricing_banner.png");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* media query */
+@media screen and (min-width: 1280px) {
+  .logo_resp img {
+    width: 17%;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .app_logo_part img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 3840px) {
+  .app_logo_part img {
+    width: 100%;
+  }
+}
+
+.navbar-brand {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+  .banner_hr p {
+    padding-top: 8rem;
+    font-size: 38px;
+  }
+
+  .app_logo_part img {
+    width: 100%;
+  }
+
+  .banner_hr {
+    height: 500px;
+  }
+
+  .btn_add {
+    margin-top: 5px;
+  }
+
+  .input_lables {
+    font-size: 21px;
+  }
+
+  .card_jobs_types {
+    height: 25vh;
+  }
+
+  .cards_data {
+    height: 34vh;
+  }
+
+}
+
+@media screen and (min-width: 3840px) {
+  .banner_hr p {
+    padding-left: 122px !important;
+    padding-top: 12rem;
+  }
+
+  .app_logo_part img {
+    width: 100%;
+  }
+
+  .banner_hr {
+    height: 500px;
+  }
+
+  .card_jobs_types {
+    height: 38vh;
+  }
+
+  .cards_data {
+    height: 34vh;
+  }
+
+}
+
+.privacy_polies img {
+  width: 100%;
+}
+
+.about_img {
+  width: 100%;
+}
+
+.message_error p {
+  font-size: 15px;
+  font-family: "Cerebri Bold";
+  color: #04420a;
+}
+
+.heading_policy p {
+  font-family: "Urbanist", sans-serif;
+  font-size: 17px;
+  color: #000000;
+}
+
+.next_question {
+  text-align: center;
+}
+
+
+.text_card {
+  font-family: "Urbanist", sans-serif;
+  font-size: 17px;
+  color: #000000;
+
+}
+
+.applied_crad {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.location {
+  font-family: "Urbanist", sans-serif;
+  font-size: 17px;
+  color: #000000;
+}
+
+.card_title_po {
+  font-family: "Urbanist", sans-serif;
+  font-size: 17px;
+  color: #645959;
+  font-weight: 600;
+}
+
+.bg_back {
+  background-color: #00a7ac;
+  padding: 4px 20px;
+  color: white;
+  font-family: "Cerebri Bold";
+  font-weight: 600;
+
+}
+
+.company_title {
+  font-size: 21px;
+  font-family: "Cerebri Bold";
+  color: #00a7ac;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: celeberi sans-serif;
+}
+
+.video1 {
+  width: 100%;
+}
+
+.recording_btn1 {
+  text-align: center;
+}
+
+.headind_tabs {
+  font-size: 37px;
+  font-family: "Cerebri Bold";
+  color: #000000;
+  font-weight: 600;
+}
+
+.secondary_1 {
+  font-size: 37px;
+  font-family: "Cerebri Bold";
+  color: #00a7ac;
+  font-weight: 600;
+}
+
+.applicants_cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top: 2px solid #00a7ac;
+}
+
+.images_user_applicant img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+
+.images_user_applicant {
+  padding: 4px 38px 17px 7px;
+}
+
+.view_resume {
+  text-decoration: none;
+  background-color: #00a7ac;
+  border-radius: 12px;
+  padding: 6px 20px;
+  color: white;
+  font-weight: 600;
+  margin-top: 19px;
+  font-family: "Cerebri Bold";
+}
+
+.view_resume:hover {
+  background-color: transparent;
+  border: 1px solid #00a7ac;
+  color: #00a7ac;
+  transition: .3s all ease-in-out;
+}
+
+.name_applicant {
+  padding: 11px 5px;
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+}
+
+.card_box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 20px 40px 40px;
+}
+
+.question_ty {
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+  color: #000000;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: #acdfe1;
+  border-bottom: 1px solid #1795a8;
+  padding-top: 0px;
+  padding-left: 12px;
+  border-radius: 12px;
+  text-transform: capitalize;
+}
+
+.location_type {
+  font-size: 25px;
+}
+
+
+.accepted {
+  margin-right: 12px;
+}
+
+.heading_interview h3 {
+  font-family: "Urbanist", sans-serif;
+  font-size: 27px;
+  color: #000000;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* #videoplay{
+  width: 50%;
+  height: 300px;
+} */
+
+.video1_img {
+  width: 100%;
+}
+
+.videobox {
+  padding: 20px 30px 40px 50px;
+}
+
+/* my css */
+.gap-3 {
+  gap: 4rem !important;
+}
+
+/* my css */
+
+/* .hr_cards{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0px 44px 5px 23px;
+}
+.hr_cards p {
+  font-size: 37px;
+  font-family: "Cerebri Bold";
+  color: #00a7ac;
+  font-weight: 600;
+} */
+
+
+/* end */
+
+/* start */
+.loaction_address h3 {
+  font-size: 24px;
+  font-family: "Cerebri Bold";
+  color: #000000;
+  line-height: 35px;
+  text-transform: capitalize;
+  padding-left: 13px;
+
+
+}
+
+.edit_parts {
+  float: right;
+}
+
+.location {
+  padding-left: 12px;
+}
+
+.location p {
+  padding-left: 5px;
+  font-size: 17px;
+ color:#241e1e;
+
+}
+
+.all_jobs{
+  color: #00a7ac;
+}
+
+.location1 {
+  padding-left: 1px;
+  font-size: 17px;
+  font-family: "Cerebri Bold";
+}
+
+.location1 p {
+  text-transform: capitalize;
+  font-family: "Cerebri Bold";
+  color: #241e1e;
+}
+
+.sills_bg {
+  background-color: #00a7ac;
+  color: white;
+  font-family: "Cerebri Bold";
+  font-weight: 600;
+}
+
+.candidate_headng h3 {
+  font-size: 24px;
+  font-family: "Urbanist", sans-serif;
+  color: #000000;
+  line-height: 35px;
+  text-transform: capitalize;
+  padding-left: 13px;
+}
+
+.bg_location {
+  background-color: #5F5F5F;
+  color: white;
+  padding: 4px 6px 8px 10px;
+}
+
+
+.aplicants_banner {
+  background-color: #DDFBFF;
+}
+
+.check_btn {
+  background-color: #00a7ac;
+  padding: 7px 20px;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Cerebri Bold";
+  border-radius: 13px;
+
+}
+
+.check_btn:hover {
+  transition: .5s all ease-in-out;
+}
+
+.aplicants_banner {
+  background-image: url('../assets/aplicant_bg.png');
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+
+
+}
+
+.content_header h3 {
+  color: white;
+  text-transform: capitalize;
+  font-family: "Cerebri Bold";
+  font-size: 45px;
+
+}
+
+.t_head tr th {
+  text-transform: capitalize;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+
+}
+
+table,
+th,
+td {
+  border: 1px solid #a7a7a7;
+  border-collapse: collapse;
+}
+
+.table{
+  --bs-table-striped-bg: #00a6ac1c !important;
+  --bs-table-hover-bg: #00a6ac1c !important;
+}
+
+.t_head {
+  background-color: #00a7ac !important;
+}
+
+.pdf_cv {
+  color: #fff;
+  display: inherit;
+  margin-top: -5px;
+  margin-right: 5px;
+}
+
+
+.error_message {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Cerebri Bold";
+
+
+}
+
+.error-popup {
+  /* background-color: #ffcccc; */
+  color: #ff0000;
+  /* border: 1px solid #ff0000; */
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-family: "Cerebri Bold";
+  font-size: 18px;
+}
+
+
+
+.question_watch {
+  margin-right: 26px;
+  font-size: 20px;
+}
+
+
+.resume_pdf{
+  color:#00a7ac;
+  font-size: 24px;
+ 
+}
+
+
+
+
+
+
+/* end */
